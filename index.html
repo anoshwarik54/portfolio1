@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anosh Warik | Portfolio</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for clean icons matching the wireframe -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#home" class="logo">Anosh Warik</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Welcome Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Welcome to My Portfolio</h1>
+                <h2 class="highlight-name">Anosh Warik</h2>
+                <p>First-year B.Tech AI & ML Engineering student passionate about web development, coding, and building practical tech solutions.</p>
+                <a href="#contact" class="btn-primary">Contact Me</a>
+            </div>
+            <div class="hero-image">
+                <!-- Replace src with your actual photo file like "profile.jpg" -->
+                <img src="https://res.cloudinary.com/xvm5c4qr/image/upload/f_auto/q_auto/WhatsApp_Image_2026-11-24_at_12.37.22_PM.jpg" alt="Anosh Warik Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2 class="section-title">About Me</h2>
+                <div class="underline"></div>
+                <p>
+                    Hello! I am Anosh Warik, currently pursuing my first year of Bachelor of Technology (B.Tech) in Artificial Intelligence and Machine Learning. I enjoy turning ideas into clean, working websites and learning how software solves everyday problems.
+                </p>
+                <p>
+                    Right now, I am building a strong foundation in HTML, CSS, Python, and C programming. My goal is to grow as a full-stack developer and AI engineer while working on meaningful real-world projects.
+                </p>
+            </div>
+            <div class="about-image">
+                <!-- Replace src with an image representing your workspace or college journey -->
+                <img src="https://res.cloudinary.com/xvm5c4qr/image/upload/f_auto/q_auto/WhatsApp_Image_2026-11-24_at_12.37.22_PM.jpg" alt="About Me Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-palette"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h3>C Programming</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Communication</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/220x160/cbd5e1/475569?text=Project+1" alt="Student Grade Calculator">
+                    <div class="project-info">
+                        <h3>Student Grade Calculator</h3>
+                        <p>A simple Python console application that takes subject marks, calculates percentages, and assigns grades automatically.</p>
+                        <a href="#projects" class="btn-outline">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <img src="https://placehold.co/220x160/cbd5e1/475569?text=Project+2" alt="Personal Portfolio Website">
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A responsive single-page portfolio built from scratch using semantic HTML5 and CSS Flexbox to showcase my academic journey.</p>
+                        <a href="#home" class="btn-outline">View Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-content">
+            
+            <!-- Left Side: Contact Details -->
+            <div class="contact-details">
+                <h2 class="section-title">Contact</h2>
+                <div class="info-item">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Anosh Warik</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>anoshwarik24@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Maharashtra, India</span>
+                </div>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="contact-form-box">
+                <form action="#" method="POST">
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Full Name" value="Anosh Warik" required>
+                        <input type="email" name="email" placeholder="Email Address" value="anoshwarik24@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Anosh Warik. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
